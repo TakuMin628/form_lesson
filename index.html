@@ -30,6 +30,95 @@
             <!--
               ここに続きのHTMLを書いていきましょう
             -->
+
+            <div class="your-name around-box">
+
+              <div class="width family-name">
+                <p class="title">名字 <span class="asterisk">※</span></p>
+                  <input type="text" name="name" class="box text-input input-style" required>
+              </div>
+                
+              <div class="width first-name">
+                <p class="title">名前 <span class="asterisk">※</span></p>
+                  <input type="text" name="name" class="box text-input input-style" required>
+              </div>
+            </div>
+
+            <div class="around-box">
+              <p class="title">性別</p>
+                <div class="gender-box box">
+                  <label class="gender-item">
+                    <input type="radio" name="gender" value="man" class="input input-style"><span>男性</span>
+                  </label>
+                  <label class="gender-item">
+                    <input type="radio" name="gender" value="woman" class="input input-style"><span>女性</span>
+                  </label>
+                  <label class="gender-item">
+                    <input type="radio" name="gender" value="other" class="input input-style"><span>その他</span>
+                  </label>
+                </div>
+            </div>
+
+            <div class="your-from around-box width">
+              <p class="title">出身</p>
+              <select name="come-from" class="box text-input select input-style">
+                <option value="tokyo">東京</option>
+                <option value="tiba">千葉</option>
+                <option value="saitama">埼玉</option>
+                <option value="kanagawa">神奈川</option>
+              </select>
+            </div>
+
+            <div class="your-mail around-box">
+              <p class="title">Eメール <span class="asterisk">※</span></p>
+                <input type="email" name="mail" placeholder="ex) hoge@example.com" class="box text-input input-style" required>
+            </div>
+
+            <div class="your-tel around-box">
+              <p class="title">電話番号</p>
+                <input type="tel" name="tel" placeholder="ex) 09012345678" class="box text-input input-style">
+            </div>
+
+            <div class="pass around-box">
+              <p class="title">パスワード <span class="asterisk">※</span></p>
+                <input type="password" name="pass" class="box text-input input-style" required>
+            </div>
+
+            <div class="pass around-box">
+              <p class="title">パスワード(確認用) <span class="asterisk">※</span></p>
+                <input type="password" name="pass" class="box text-input input-style" required>
+            </div>
+
+            <div class="hope-course around-box">
+              <p class="title">希望コース</p>
+                <div class="box course">
+                  <div class="checkbox">
+                    <input type="checkbox" name="profession" id="frontend" value="フロントエンド" class="input input-style">
+                    <label for="frontend" class="check-mark">フロントエンド</label>
+                  </div>
+
+                  <div class="checkbox">
+                    <input type="checkbox" name="profession" id="backend" value="バックエンド" class="input input-style">
+                    <label for="backend" class="check-mark">バックエンド</label>
+                  </div>
+
+                  <div class="checkbox">
+                    <input type="checkbox" name="profession" id="appli" value="アプリ" class="input input-style">
+                    <label for="appli" class="check-mark">アプリ</label>
+                  </div>
+
+                </div>
+            </div>
+
+            <div class="remarks around-box">
+              <p class="title">備考</p>
+                <textarea name="comment" class="box text-input input-textarea input-style" placeholder="何かあればご記入ください"></textarea>
+            </div>
+
+            <div class="submit around-box">
+              <input type="submit" class="make-button button input-style" value="アカウント作成">
+            </div>
+              
             <p class="agreement">アカウントを作成することにより、<a class="link-color" href>利用規約</a>と<a class="link-color" href>プライバシーポリシー</a>に同意するものとします。</p>
           </form>
         </div>
